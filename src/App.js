@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import "react-bootstrap";
-import "font-awesome/css/font-awesome.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "font-awesome/scss/font-awesome.scss";
+import 'bootstrap/scss/bootstrap.scss';
 import "./resource/styles/aos.css";
 import "./resource/styles/style-min.css";
 import "./resource/styles/custom.css";

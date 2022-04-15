@@ -1,11 +1,13 @@
+import { Container, Row } from "react-bootstrap"
+
 export default () => {
   return (
     <footer class="ki-footer footer-default theme-gradient-2 custom-footer">
       <div class="bg_image--2">
         {/* <!-- Start Footer Top Area --> */}
         <div class="footer-top ki-section-gap">
-          <div class="container">
-            <div class="row">
+          <Container>
+            <Row>
               <ul class="footerNav diamon-footer xs-mob-ul">
                 <li>
                   <div class="title">About Us</div>
@@ -71,13 +73,14 @@ export default () => {
                   </div>
                 </li>
               </ul>
-            </div>
-          </div>
+            </Row>
+          </Container>
         </div>
         {/* <!-- End Footer Top Area --> */}
         {/* <!-- Start Copyright --> */}
         <div class="copyright copyright-default">
-          <div class="container">
+          <Container>
+
             <ul class="liststyle d-flex justify-content-between">
               <li>© Copyright 2022. All rights reserved.</li>
               <li>
@@ -85,7 +88,7 @@ export default () => {
                 {/* <!--<a data-hover="Privacy Policy" href="">Privacy Policy</a>--> */}
               </li>
             </ul>
-          </div>
+          </Container>
         </div>
         {/* <!-- End Copyright --> */}
       </div>

@@ -1,0 +1,170 @@
+.what-do-we-do-container {
+  padding: 70px 0 35px;
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1280px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .row {
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      .row-left {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        .content {
+          .title {
+            position: relative;
+            font-size: 24px;
+            line-height: 1.5;
+            color: #666;
+            padding-left: 65px;
+          }
+          .title::before {
+            position: absolute;
+            content: "";
+            width: 45px;
+            height: 2px;
+            left: 0;
+            background: #5925c4;
+            top: 14px;
+          }
+          .heading {
+            display: block;
+            position: relative;
+            font-size: 24px;
+            line-height: 1.5;
+            color: #666;
+            margin-top: 20px;
+            font-weight: 500;
+            margin-bottom: 0.5rem !important;
+          }
+          p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #333;
+            padding-right: 0;
+            margin-top: 0 !important;
+            margin-bottom: 1rem;
+
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+          }
+          .button {
+            background: #5925c4;
+            font-size: 16px;
+            line-height: 1.5;
+            border-radius: 0;
+            color: #fff;
+            padding: 14px 50px;
+            margin-top: 15px;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 400;
+            user-select: none;
+            transition: color 0.15s ease-in-out,
+              background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+              box-shadow 0.15s ease-in-out;
+          }
+          .button:hover {
+            background-color: #20c997;
+          }
+        }
+      }
+      .row-right {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        .content {
+          margin-top: 3rem !important;
+          .row {
+            .text-container {
+              flex: 0 0 50%;
+              max-width: 50%;
+              position: relative;
+              width: 100%;
+              padding-right: 15px;
+              padding-left: 15px;
+              .text {
+                padding-left: 100px;
+                position: relative;
+                padding-right: 0px;
+                margin-bottom: 3rem !important;
+                .icon {
+                  background-image: url(https://www.keyideasinfotech.com/wp-content/uploads/2020/10/spirits-image.png);
+                  background-repeat: no-repeat;
+                  background-position: 0 0;
+                  width: 70px;
+                  height: 60px;
+                }
+                .ui-ux-icon {
+                  position: absolute;
+                  width: 70px;
+                  height: 60px;
+                  left: 9px;
+                  top: 72px;
+                  background-position: -245px -558px;
+                }
+                .dev-icon {
+                  position: absolute;
+                  width: 70px;
+                  height: 60px;
+                  left: 9px;
+                  top: 72px;
+                  background-position: -355px -558px;
+                }
+                .marketing-icon {
+                  position: absolute;
+                  width: 77px;
+                  height: 60px;
+                  left: 9px;
+                  top: 72px;
+                  background-position: -239px -645px;
+                }
+                .heading {
+                  font-size: 24px;
+                  line-height: 1.5;
+                  color: #333;
+                  font-weight: 500;
+                  margin-bottom: 0.5rem;
+                }
+                p {
+                  font-size: 16px;
+                  line-height: 1.5;
+                  color: #333;
+                  margin-top: 0;
+                  margin-bottom: 1rem;
+                  display: block;
+                  margin-block-start: 1em;
+                  margin-block-end: 1em;
+                  margin-inline-start: 0px;
+                  margin-inline-end: 0px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

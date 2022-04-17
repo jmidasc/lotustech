@@ -1693,11 +1693,11 @@ span.green_right_arrow i {
   line-height: 60px;
   color: #333;
 }
-.blog-listing .col-sm-6.pl-0 {
+.blog-listing .col-sm-6.ps-0 {
   flex: 0 0 51.35%;
   max-width: 51.35%;
 }
-.blog-listing .col-sm-6.pr-0 {
+.blog-listing .col-sm-6.pe-0 {
   flex: 0 0 48.65%;
   max-width: 48.65%;
 }
@@ -4781,7 +4781,7 @@ p:empty {
   font-size: 20px;
   line-height: 30px;
 }
-.single-location-pages .nyc-tabing .pl-40 {
+.single-location-pages .nyc-tabing .ps-40 {
   padding-left: 15px;
 }
 .single-location-pages section.latestCase.NYorkClients {
@@ -5854,7 +5854,7 @@ h3.testing_rpoints {
   .pt-md-7 {
     padding-top: 5rem !important;
   }
-  .pr-md-150 {
+  .pe-md-150 {
     padding-right: 150px;
   }
 }
@@ -8441,7 +8441,7 @@ h3.detailBox.app-dev-ser {
   margin-bottom: 20px;
   color: #5925c4;
 }
-.list-text-list-wrap.pl-4 {
+.list-text-list-wrap.ps-4 {
   padding-left: 2rem !important;
 }
 .list-text-list-wrap .list-text-list-row .list-text-list-img {
@@ -9777,12 +9777,12 @@ h3.detailBox.app-dev-ser {
     font-size: 12px;
     line-height: 21px;
   }
-  .blog-listing .col-sm-6.pl-0 {
+  .blog-listing .col-sm-6.ps-0 {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 !important;
   }
-  .blog-listing .col-sm-6.pr-0 {
+  .blog-listing .col-sm-6.pe-0 {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 !important;

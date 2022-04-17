@@ -772,7 +772,7 @@ span.google {
   margin-top: 8px;
   height: 82px;
 }
-.col-lg-7.col-md-7.col-sm-7.col-12.pl-50 {
+.col-lg-7.col-md-7.col-sm-7.col-12.ps-50 {
   padding-left: 50px;
 }
 .got-guestion {
@@ -5097,7 +5097,7 @@ img.pt-100 {
   left: 10px;
   transform: translate(0, 0);
 }
-.col-md-12.col-sm-12.col-lg-12.pl-0.Goals {
+.col-md-12.col-sm-12.col-lg-12.ps-0.Goals {
   padding-top: 80px;
 }
 .We-get-results.underUser .Goals .userName,
@@ -5113,11 +5113,11 @@ img.pt-100 {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-.pr-50 {
+.pe-50 {
   padding-right: 70px;
   margin-right: 50px;
 }
-.pl-50 {
+.ps-50 {
   padding-left: 105px;
 }
 .pt100 {
@@ -6770,7 +6770,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   .whyChooseJewelary {
     padding-top: 30px;
   }
-  .col-lg-7.col-md-7.col-sm-7.col-12.pl-50 {
+  .col-lg-7.col-md-7.col-sm-7.col-12.ps-50 {
     padding-left: 15px;
   }
   .why-choose-iconBox li {
@@ -6832,8 +6832,8 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
     margin-top: 0;
     padding-bottom: 5px;
   }
-  .copyright.copyright-default .col-lg-4.col-md-4.col-sm-4.col-12.pr-0,
-  .copyright.copyright-default .col-lg-8.col-md-8.col-sm-8.col-12.pl-0 {
+  .copyright.copyright-default .col-lg-4.col-md-4.col-sm-4.col-12.pe-0,
+  .copyright.copyright-default .col-lg-8.col-md-8.col-sm-8.col-12.ps-0 {
     padding: 0;
     text-align: left;
   }
@@ -7596,7 +7596,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   section.We-get-results.two-box-img div {
     padding-bottom: 20px;
   }
-  section.We-get-results.two-box-img .col-md-6.col-sm-6.col-lg-6.pl-0 {
+  section.We-get-results.two-box-img .col-md-6.col-sm-6.col-lg-6.ps-0 {
     padding-left: 15px !important;
   }
   section.We-get-results.two-box-img {
@@ -7616,7 +7616,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
     padding-top: 30px;
     padding-left: 0;
   }
-  .DarkMode .col-md-8.col-sm-8.col-lg-8.pr-0.aos-init.align-center {
+  .DarkMode .col-md-8.col-sm-8.col-lg-8.pe-0.aos-init.align-center {
     padding-left: 0;
   }
   .DarkMode:after {
@@ -7625,7 +7625,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   .DarkMode .container {
     padding-right: 0;
   }
-  .DarkMode .col-md-4.col-sm-4.col-lg-4.pl-0 {
+  .DarkMode .col-md-4.col-sm-4.col-lg-4.ps-0 {
     padding-right: 0;
   }
   .DarkMode .com-img {
@@ -7802,11 +7802,11 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
     padding-bottom: 30px;
     padding-left: 30px;
   }
-  .pr-50 {
+  .pe-50 {
     margin-right: 0;
     margin-bottom: 25px;
   }
-  .pl-50 {
+  .ps-50 {
     padding-left: 0;
   }
   .pt100 {
@@ -7843,7 +7843,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   .main {
     overflow: hidden;
   }
-  section.We-get-results.underUser.sleep-t .col-md-6.col-sm-6.col-lg-6.pl-0 {
+  section.We-get-results.underUser.sleep-t .col-md-6.col-sm-6.col-lg-6.ps-0 {
     padding-right: 0 !important;
   }
   .healthImg {
@@ -7852,7 +7852,7 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   .mentalHealth .col-lg-4 {
     padding-bottom: 0;
   }
-  section.We-get-results.underUser .col-md-5.col-sm-5.col-lg-5.pl-50 {
+  section.We-get-results.underUser .col-md-5.col-sm-5.col-lg-5.ps-50 {
     padding-left: 15px;
   }
   main {
@@ -7871,10 +7871,10 @@ section.We-get-results.ProductPage.wsp-p.pt-0.mt-0 p {
   .We-get-results.highFidelity.dsweb.wspbg {
     padding-top: 0;
   }
-  .We-get-results.highFidelity.dsweb.wspbg .pl-0 {
+  .We-get-results.highFidelity.dsweb.wspbg .ps-0 {
     padding-left: 15px !important;
   }
-  .We-get-results.highFidelity.dsweb.wspbg .pr-0 {
+  .We-get-results.highFidelity.dsweb.wspbg .pe-0 {
     padding-right: 15px !important;
   }
 }

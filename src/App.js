@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import "react-bootstrap";
 import "font-awesome/scss/font-awesome.scss";
 import 'bootstrap/scss/bootstrap.scss';
-import "./resource/styles/aos.css";
-import "./resource/styles/style-min.css";
-import "./resource/styles/custom.css";
-import "slick-carousel/slick/slick.css"; 
+import "./assets/styles/style-min.css";
+import "./assets/styles/custom.css";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import Header from "./Component/Header";
+import TopRow from "./Component/TopRow";
+import WhatDoWeDo from "./Component/WhatDoWeDo";
+import Collaboration from "./Component/Collaboration";
+import CollaborationContract from "./Component/CollaborationContract";
 import ShowCase from './Component/ShowCase';
 import Testimonial from './Component/Testimonial';
 import SuccessfulBanner from './Component/SuccessfulBanner';
@@ -15,22 +19,13 @@ import Footer from './Component/Footer';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+    <div className="App home-page-body">
+      <Header></Header>
       <div className='main'>
+        <TopRow></TopRow>
+        <WhatDoWeDo></WhatDoWeDo>
+        <Collaboration></Collaboration>
+        <CollaborationContract></CollaborationContract>
         <ShowCase />
         <Testimonial />
         <SuccessfulBanner />

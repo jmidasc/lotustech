@@ -1,6 +1,9 @@
 body {
   padding-top: 104px;
 }
+.main {
+  padding-top: 85px;
+}
 .ios-carousel .owl-stage-outer .owl-nav {
   display: none !important;
 }
@@ -2082,31 +2085,31 @@ span.green_right_arrow i {
   overflow-x: hidden;
 }
 .home-page-body .navbar-light {
-  background: #eaf8ff;
+  background: #eaf8ff !important;
 }
 .home-page-top-row {
-  background: #eaf8ff;
+  background: #eaf8ff !important;
   background: -moz-linear-gradient(
     top,
     #eaf8ff 0%,
     #f7f9ff 32%,
     #f6f6ff 63%,
     #f6f6ff 100%
-  );
+  ) !important;
   background: -webkit-linear-gradient(
     top,
     #eaf8ff 0%,
     #f7f9ff 32%,
     #f6f6ff 63%,
     #f6f6ff 100%
-  );
+  ) !important;
   background: linear-gradient(
     to bottom,
     #eaf8ff 0%,
     #f7f9ff 32%,
     #f6f6ff 63%,
     #eaf8ff14 100%
-  );
+  ) !important;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf8ff', endColorstr='#f6f6ff',GradientType=0 );
   padding-top: 54px;
 }
@@ -3348,7 +3351,7 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .container {
   padding: 0;
 }
 .home-page-body header.change .navbar-light {
-  background: #5925c4;
+  background: #5925c4 !important;
 }
 .home-page-html
   header.change

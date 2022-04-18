@@ -10,7 +10,7 @@ export default () => (
             <span>Let's work together</span>
             <div className="need-successful-text">Need a successful project?</div>
             <div className="ep"> <a href={`${process.env.PUBLIC_URL}/contact-us/`}>Estimate Project</a></div>
-            <p><span>or call us now</span> <a href="tel:+8617341011982">+86 1734 101 1982</a> </p>
+            <p><span>or call us now</span> <a href="tel:+8617341011982">+86 173 4101 1982</a> </p>
           </div>
         </Col>
       </Row>

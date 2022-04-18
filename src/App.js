@@ -27,7 +27,7 @@ function App() {
         <Collaboration></Collaboration>
         <CollaborationContract></CollaborationContract>
         <ShowCase />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <SuccessfulBanner />
       </div>
       <Footer />

@@ -22,10 +22,10 @@ body {
   font-weight: 700;
 }
 .footerNav.diamon-footer li:last-child {
-  width: 21% !important;
+  width: 26% !important;
 }
 .footerNav.diamon-footer li {
-  width: 23% !important;
+  width: 31% !important;
 }
 #load_more_portfolio_button {
   background: #5925c4;
@@ -3849,7 +3849,7 @@ section.latestCase.NYorkClients p a {
   color: #707070;
 }
 .footerNav.diamon-footer li:first-child {
-  width: 30% !important;
+  width: 40% !important;
 }
 .footer-widget-item ul.footer-social li:first-child {
   width: inherit !important;

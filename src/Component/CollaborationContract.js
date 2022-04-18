@@ -11,7 +11,7 @@ export default () => {
             <div class="d-block d-sm-block d-md-flex justify-content-between w-100">
               <div class="contact-hr-team">Got a Project or Partnership in Mind?</div>
               <div class="mail-us-btn">
-                <Button href="https://www.keyideasinfotech.com/contact-us/" className="btn-mail-us">
+                <Button href={`${process.env.PUBLIC_URL}/contact-us/`} className="btn-mail-us">
                   Let's Talk
                 </Button>
               </div>

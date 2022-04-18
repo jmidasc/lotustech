@@ -9,8 +9,8 @@ export default () => (
           <div className="successful-inner-section position-relative text-white text-center">
             <span>Let's work together</span>
             <div className="need-successful-text">Need a successful project?</div>
-            <div className="ep"> <a href="https://www.keyideasinfotech.com/contact-us/">Estimate Project</a></div>
-            <p><span>or call us now</span> <a href="tel:+1 617-934-6763">+1 617-934-6763</a> </p>
+            <div className="ep"> <a href={`${process.env.PUBLIC_URL}/contact-us/`}>Estimate Project</a></div>
+            <p><span>or call us now</span> <a href="tel:+8617341011982">+86 1734 101 1982</a> </p>
           </div>
         </Col>
       </Row>

@@ -15,13 +15,13 @@ export default () => {
                 Custom web development, UI/UX design, integrations, branding and digital marketing.
               </p>
               <p>
-              <a href="https://www.keyideasinfotech.com/portfolio/" class="btn view-portfolio-btn">View Portfolio</a>
+              <a href={`${process.env.PUBLIC_URL}/portfolio/`} class="btn view-portfolio-btn">View Portfolio</a>
               </p>
             </div>
           </Col>
           <Col sm={6} className="custom-col-6">
             <div className = 'homepage-image-right mt-md-5 mt-lg-5 mt-xl-5 position-relative'>
-              <img className= 'img-fluid' src="https://www.keyideasinfotech.com/wp-content/uploads/2020/08/home-page-image.jpg" alt="Home page Image"/>
+              <img className= 'img-fluid' src={`${process.env.PUBLIC_URL}/uploads/home-page-image.jpg`} alt="Home page Image"/>
             </div>
           </Col>
         </Row>

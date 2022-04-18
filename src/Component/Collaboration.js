@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container } from "react-bootstrap";
-// import "./Collaboration.scss";
 
 export default () => {
   return (

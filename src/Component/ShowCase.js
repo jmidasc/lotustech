@@ -19,7 +19,7 @@ export default () => {
         <Row>
           <Col sm={6} className="pull-left pe-md-5">
             <img
-              src="https://www.keyideasinfotech.com/wp-content/uploads/2020/08/gif-video-img.jpg"
+              src={`${process.env.PUBLIC_URL}/uploads/gif-video-img.jpg`}
               className="img-fluid"
               alt="gif-video-img"
             />
@@ -34,7 +34,7 @@ export default () => {
               customization.
             </p>
             <Button className="btn-readcase" tabIndex={0}
-              href="https://www.keyideasinfotech.com/portfolio/diamond-jewelry-ecommerce-chicago/">
+              href={`${process.env.PUBLIC_URL}/portfolio/diamond-jewelry-ecommerce-chicago/`}>
               Read Case Study
             </Button>
             <Row mt={4} className="monthy-wise-visit">

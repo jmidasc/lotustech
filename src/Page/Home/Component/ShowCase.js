@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Col, Row, Button } from 'react-bootstrap'
-import Slider from 'react-slick/lib/slider'
 
 export default () => {
   const settings = {
@@ -34,7 +33,8 @@ export default () => {
               customization.
             </p>
             <Button className="btn-readcase" tabIndex={0}
-              href={`${process.env.PUBLIC_URL}/portfolio/diamond-jewelry-ecommerce-chicago/`}>
+              // href={`${process.env.PUBLIC_URL}/portfolio/diamond-jewelry-ecommerce-chicago/`}
+            >
               Read Case Study
             </Button>
             <Row mt={4} className="monthy-wise-visit">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Container } from 'react-bootstrap';
+import { Col, Row, Container, Button } from 'react-bootstrap';
 
 export default () => {
   return(
@@ -15,7 +15,9 @@ export default () => {
                 Custom web development, UI/UX design, integrations, branding and digital marketing.
               </p>
               <p>
-              <a href={`${process.env.PUBLIC_URL}/portfolio/`} class="btn view-portfolio-btn">View Portfolio</a>
+                <Button className="view-portfolio-btn">
+                  View Portfolio
+                </Button>
               </p>
             </div>
           </Col>

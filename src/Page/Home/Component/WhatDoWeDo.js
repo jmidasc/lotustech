@@ -14,7 +14,9 @@ export default () => {
                 <h2>Website Design Agency</h2>
                 <p>A decade ago, we started with a small team of web designers &amp; scaled up to a full-service digital agency that specializes in marketing, branding, software development, web design and development. Focusing on innovative and web-driven solutions. We build digital experiences that are client-centered &amp; long-lasting.</p>
                 <p>
-                  <Button className="btn-discover-more" href="${process.env.PUBLIC_URL}/company/">
+                  <Button className="btn-discover-more"
+                    // href="${process.env.PUBLIC_URL}/company/"
+                  >
                     Discover more
                   </Button>
                 </p></div>

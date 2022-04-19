@@ -56,7 +56,7 @@ export default () => {
                     <div class="title">Tell us about your needs, we’d love to work with you.</div>
                     <div class="footer-menu-container">
                       <p>
-                        <a href="mailto:sales@SunLotusinfotech.com">sales@SunLotusinfotech.com</a>
+                        <a href="mailto:sales@SunLotusinfotech.com">sales@sunlotustech.com</a>
                       </p>
                     </div>
                   </div>
@@ -73,7 +73,7 @@ export default () => {
             <ul class="liststyle d-flex justify-content-between">
               <li>© Copyright 2022. All rights reserved.</li>
               <li>
-                <a data-hover="Privacy Policy" href={`${process.env.PUBLIC_URL}/sitemap/`}>Sitemap</a>
+                <a data-hover="Privacy Policy" /* href={`${process.env.PUBLIC_URL}/sitemap/` */>Sitemap</a>
                 {/* <!--<a data-hover="Privacy Policy" href="">Privacy Policy</a>--> */}
               </li>
             </ul>

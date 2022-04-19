@@ -17,7 +17,9 @@ export default () => {
       <div className={`header${changeHeader}`}>
         <div className="content-container">
           <div className="logo">
-            <img src={`${process.env.PUBLIC_URL}/logo.png`}></img>
+            <a href={`${process.env.PUBLIC_URL}/`} >
+              <img src={`${process.env.PUBLIC_URL}/logo.png`} />
+            </a>
           </div>
           <div className="button talk">Let's talk</div>
         </div>
@@ -65,7 +67,7 @@ export default () => {
                     alt="icon"
                   />
                 </div>
-                <div className="text">sales@lotustech.com</div>
+                <div className="text">sales@sunlotustech.com</div>
               </div>
               <div className="contact-line">
                 <div className="img-container">
@@ -74,7 +76,7 @@ export default () => {
                     alt="icon"
                   />
                 </div>
-                <div className="text">jobs@lotustech.com</div>
+                <div className="text">jobs@sunlotustech.com</div>
               </div>
             </div>
           </div>

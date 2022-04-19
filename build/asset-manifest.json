@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6789e19.css",
+    "main.js": "/static/js/main.68a7dfe0.js",
+    "static/js/787.aae745ca.chunk.js": "/static/js/787.aae745ca.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/successful-project-banner.jpg": "/static/media/successful-project-banner.4d13e481993501a7479d.jpg",
+    "static/media/bg-a-light.jpg": "/static/media/bg-a-light.6a517d641a5eddefce9a.jpg",
+    "static/media/gif-video-img.jpg": "/static/media/gif-video-img.c0a65c5e5502cd0677f7.jpg",
+    "static/media/sprite-jewelry.jpg": "/static/media/sprite-jewelry.c0a65c5e5502cd0677f7.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.a6789e19.css.map": "/static/css/main.a6789e19.css.map",
+    "main.68a7dfe0.js.map": "/static/js/main.68a7dfe0.js.map",
+    "787.aae745ca.chunk.js.map": "/static/js/787.aae745ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6789e19.css",
+    "static/js/main.68a7dfe0.js"
+  ]
+}

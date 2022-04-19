@@ -20,6 +20,9 @@ export default () => {
             <a href={`${process.env.PUBLIC_URL}/`} >
               <img src={`${process.env.PUBLIC_URL}/logo.png`} />
             </a>
+            <a href={`${process.env.PUBLIC_URL}/`} className="co-name">
+              沈阳<span className="subject"> 太阳莲花 </span>科技有限公司
+            </a>
           </div>
           <div className="button talk">Let's talk</div>
         </div>

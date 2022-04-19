@@ -45,9 +45,25 @@ export default () => {
                       <p>Naner Road no.14
                         <br />Heping District,
                         <br />Shenyang
-                        <br />Liaoning province 
+                        <br />Liaoning province
                       </p>
-                      <p> <a href="tel: +91 999-940-3715"> +8617341011982</a></p>
+                      <p>
+                        辽宁省沈阳市和平区南二马路14号
+                      </p>
+                      <p>
+                        Postal code: 110051
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="xs-mob-50">
+                  <div class="footer-widget-item">
+                    <div class="title">Company owner</div>
+                    <div class="footer-menu-container">
+                      <p>
+                        Sun Wei Ye
+                      </p>
+                      <p>Tel: <a href="tel: +86 173-4101-1982"> +86 173 4101 1982</a></p>
                     </div>
                   </div>
                 </li>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container, NavLink } from 'react-bootstrap';
 // import './Header.scss'
 export default () => {
 
@@ -22,10 +22,15 @@ export default () => {
           <Navbar.Brand href={`${process.env.PUBLIC_URL}/`} >
             <img src={`${process.env.PUBLIC_URL}/logo.png`} class="logo-size without-scroll" alt="logo" title="logo" />
             <img src={`${process.env.PUBLIC_URL}/logo.png`} class="logo-size with-scroll" alt="logo" title="logo" data-qbcyl2xxl="" />
+            {/* <p className='title-chinese'>
+            </p> */}
           </Navbar.Brand>
-          
+          <NavLink href={`${process.env.PUBLIC_URL}/`}>
+            沈阳<span className="subject"> 太阳莲花 </span>科技有限公司
+          </NavLink>
+
           <Navbar.Toggle aria-controls="main-nav-1" />
-          <Navbar.Collapse id="main-nav-1" style={{justifyContent: 'flex-end'}}>
+          <Navbar.Collapse id="main-nav-1" style={{ justifyContent: 'flex-end' }}>
             <Nav>
               <Nav.Link href={`${process.env.PUBLIC_URL}/contact-us/`}>
                 Let's Talk

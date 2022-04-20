@@ -19,6 +19,17 @@
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
+    .logo .co-name {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: #0d6efd;
+      text-decoration: none;
+      display: inline-block;
+      text-shadow: 3px 3px 3px darkgray;
+      .subject {
+        font-size: 24px;
+      }
+    }
     .talk {
       height: 44px;
       width: 200px;

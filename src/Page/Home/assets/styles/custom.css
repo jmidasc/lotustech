@@ -25,10 +25,10 @@ body {
   font-weight: 700;
 }
 .footerNav.diamon-footer li:last-child {
-  width: 26% !important;
+  width: 21% !important;
 }
 .footerNav.diamon-footer li {
-  width: 31% !important;
+  width: 18% !important;
 }
 #load_more_portfolio_button {
   background: #5925c4;
@@ -3353,11 +3353,29 @@ header .navbar .navbar-nav .nav-item .dropdown-menu .container {
 .home-page-body header.change .navbar-light {
   background: #5925c4 !important;
 }
+
 .home-page-html
   header.change
   .navbar-light.fixed-top.outer-header-scroll
   .nav-link {
+  text-shadow: 3px 3px 3px darkgray;
+  font-size: 18px;
   color: #fff !important;
+}
+.home-page-html
+  header
+  .navbar-light.fixed-top.outer-header-scroll
+  .nav-link
+  .subject {
+  font-size: 24px;
+}
+
+.home-page-html
+  header
+  .navbar-light.fixed-top.outer-header-scroll
+  .nav-link {
+  text-shadow: 3px 3px 3px darkgray;
+  font-size: 18px;
 }
 .home-page-html
   header.change
@@ -3852,7 +3870,7 @@ section.latestCase.NYorkClients p a {
   color: #707070;
 }
 .footerNav.diamon-footer li:first-child {
-  width: 40% !important;
+  width: 35% !important;
 }
 .footer-widget-item ul.footer-social li:first-child {
   width: inherit !important;
@@ -10777,11 +10795,11 @@ h3.detailBox.app-dev-ser {
     padding-left: 0;
     padding-right: 0;
   }
-  .custom-footer .footerNav.diamon-footer.xs-mob-ul li.xs-mob-50 {
+  .custom-footer .footerNav.diamon-footer.xs-mob-ul li.xs-mob-30 {
     display: inline-block;
-    width: 50% !important;
+    width: 30% !important;
   }
-  .custom-footer .footerNav.diamon-footer.xs-mob-ul li.xs-mob-50 p br {
+  .custom-footer .footerNav.diamon-footer.xs-mob-ul li.xs-mob-30 p br {
     display: none;
   }
   .contact-hr .mail-us-btn .btn.btn-mail-us {
